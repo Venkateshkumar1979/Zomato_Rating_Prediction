@@ -1,13 +1,13 @@
 # Zomato_Rating_Prediction
-Zomato-Bengaluru Rating Prediction using ML Algorithms 
+Zomato-Bengaluru Rating Prediction Using ML Algorithms 
 The fundamental concept of analyzing the Zomato dataset is to get a reasonable idea of the factors influencing each restaurant’s aggregate ranking, setting up different types of restaurants at different locations. The main objective of this project is to perform extensive exploratory data analysis (EDA) on the Zomato dataset and build an appropriate machine learning model that will help various Zomato restaurants to predict their respective ratings based on certain features.
-The following tasks have been performed
+The following tasks have been performed:
 
 **Explore the Data**
 
 •	Understanding each feature
 
-→	'url' - contains the url of the restaurant in the zomato website
+→	'url' - contains the URL of the restaurant on the Zomato website
 
 →	'address'- contains the address of the restaurant in Bengaluru
 →	'name' - contains the name of the restaurant
@@ -18,7 +18,7 @@ The following tasks have been performed
 
 →	'rate' - contains the overall rating of the restaurant out of 5
 
-→	'votes' - contains total number of rating for the restaurant
+→	'votes' - contains the total number of rating for the restaurant
 
 →	'phone' - contains the phone number of the restaurant
 
@@ -40,7 +40,7 @@ The following tasks have been performed
 
 →	'listed_in(city)' - City where the restaurant is situated
 
-•	Exploring the dataset info, describe and finding columns with categories, and numeric columns.
+•	Exploring the dataset info, describing and finding columns with categories, and numeric columns.
 
 **Data Cleaning:**
 
@@ -95,3 +95,11 @@ Here are brief descriptions of algorithms used to build a model using various li
 **Random Forest Regression:** Random Forest Regression is an ensemble learning method for regression problems. It works by constructing multiple decision trees at training time and outputting the mean prediction of the individual trees as the final prediction. The random forest algorithm introduces randomness when building each tree to make them different from each other.
 
 **Extra Trees Regressor**: Extra Trees Regressor is another ensemble learning method for regression problems. It works by constructing multiple decision trees at training time and outputting the mean prediction of the individual trees as the final prediction. The difference between Random Forest Regression and Extra Trees Regressor is that Extra Trees Regressor introduces more randomness when building each tree by selecting random thresholds for each feature.
+
+**Results**
+Accuracy Score Linear Reg: 30.12
+Accuracy score for Random Forest Reg: 85.14
+Accuracy Score for Support Vector Reg: 36.15
+Accuracy score for Extra Trees Reg: 88.5
+
+# From  the above accuracy scores, it is clear that the Extra Tree regressor gives the best results.
