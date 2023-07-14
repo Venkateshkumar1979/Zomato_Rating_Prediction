@@ -6,48 +6,82 @@ The following tasks have been performed
 **Explore the Data**
 
 •	Understanding each feature
+
 →	'url' - contains the url of the restaurant in the zomato website
+
 →	'address'- contains the address of the restaurant in Bengaluru
 →	'name' - contains the name of the restaurant
+
 →	'online_order' - whether online ordering is available in the restaurant or not
+
 →	'book_table' - table book option available or not
+
 →	'rate' - contains the overall rating of the restaurant out of 5
+
 →	'votes' - contains total number of rating for the restaurant
+
 →	'phone' - contains the phone number of the restaurant
+
 →	'location' - contains the neighborhood in which the restaurant is located
+
 →	'rest_type' - restaurant type
+
 →	'dish_liked' - Most liked dishes in the restaurant
+
 →	'cuisines' - Cuisines served by the restaurant
+
 →	'approx_cost(for two people)' - Approximate cost for 2 persons
+
 →	'reviews_list' - Reviews by the customers
+
 →	'menu_item' - Menu list from the restaurant
+
 →	'listed_in(type)' - Category of the restaurant
+
 →	'listed_in(city)' - City where the restaurant is situated
+
 •	Exploring the dataset info, describe and finding columns with categories, and numeric columns.
 
 **Data Cleaning:**
 
 •	Deleting redundant columns.
+
 •	Renaming the columns.
+
 •	Dropping duplicates.
+
 •	Cleaning individual columns.
+
 •	Remove the NaN values from the dataset
+
 •	Check for some more Transformations
 
 **Data Visualization:**
 
 •	Restaurants delivering Online or not
+
 •	Restaurants allowing table booking or not
+
 •	Table booking Rate vs Rate
+
 •	Best Location
+
 •	Relation between Location and Rating
+
 •	Restaurant Type
+
 •	Gaussian Rest type and Rating
+
 •	Types of Services
+
 •	Relation between Type and Rating
+
 •	Cost of Restaurant
+
 •	No. of restaurants in a Location
+
 •	Restaurant type
+
 •	Most famous restaurant chains in Bengaluru
 
 Appropriate features are selected to build an ML algorithm to predict the rating of a restaurant. 
